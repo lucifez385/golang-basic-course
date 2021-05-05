@@ -1,9 +1,9 @@
 # Checklist
 - [x] Install & Setup
 - [x] Hello world in Go!
-- [ ] Introduction
+- [ ] Five things must know
     - [x] How to we run code?
+    - [x] `package main`?
     - [ ] `import "fmt"`?
-    - [ ] `package main`?
     - [ ] `func`?
     - [ ] How is the main.go file organinzed?

@@ -11,3 +11,29 @@ go run main.go
 go build main.go
 ./main
 ```
+
+![](02.07.png)
+
+## `package main`?
+
+Package == Project == Workspace
+
+### Package?
+
+![](02.02.png)
+
+### Type of package
+
+![](02.03.png)
+
+### Executable
+
+![](02.04.png)
+
+### Reuseable
+
+![](02.05.png)
+
+### Comparision
+
+![](02.06.png)
