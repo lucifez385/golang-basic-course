@@ -1,3 +1,3 @@
 # Checklist
-- [ ] Setup & install
+- [ ] Install & Setup
 - [ ] Hello world in Go!
