@@ -1,1 +1,3 @@
-# golang-basic-course
+# Checklist
+[ ] Setup & install
+[ ] Hello world in Go!
