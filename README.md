@@ -25,4 +25,6 @@
     - [x] Multiple Return Values
     - [x] Byte slices
     - [x] Saving Data to the Hard Drive 
-    - [ ] Reading Data from the Hard Drive
+    - [x] Reading Data from the Hard Drive
+    - [x] Shuffle the cards
+    - [ ] Testing
