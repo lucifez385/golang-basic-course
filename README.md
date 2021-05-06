@@ -20,6 +20,6 @@
     - [x] Custom type decarations
     - [x] Receiver Functions
         - [x] Quiz
-    - [ ] Creating a New Deck
+    - [x] Creating a New Deck
     - [ ] Slice Range Syntax
     - [ ] Multiple Return Values
