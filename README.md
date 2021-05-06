@@ -12,5 +12,7 @@
     - [x] New project folder
     - [x] Variable declarations
         - [x] Quiz
-    - [ ] Functions and Return Types
+    - [x] Functions and Return Types
+        - [x] Quiz
+    - [ ] Slices and For Loops
         - [ ] Quiz
