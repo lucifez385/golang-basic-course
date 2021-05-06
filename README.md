@@ -6,4 +6,4 @@
     - [x] `package main`?
     - [x] `import "fmt"`?
     - [x] `func`?
-    - [ ] How is the main.go file organinzed?
+    - [x] How is the main.go file organinzed?
