@@ -37,3 +37,13 @@ Package == Project == Workspace
 ### Comparision
 
 ![](02.06.png)
+
+## import "fmt"
+
+![](02.08.png)
+
+![](02.09.png)
+
+### Standard lib
+
+https://golang.org/pkg
