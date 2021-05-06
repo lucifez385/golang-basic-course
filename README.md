@@ -16,5 +16,10 @@
         - [x] Quiz
     - [x] Slices and For Loops
         - [x] Quiz
-    - [ ] OO vs Go approach
-    - [ ] Custom type decarations
+    - [x] OO vs Go approach
+    - [x] Custom type decarations
+    - [x] Receiver Functions
+        - [x] Quiz
+    - [ ] Creating a New Deck
+    - [ ] Slice Range Syntax
+    - [ ] Multiple Return Values
