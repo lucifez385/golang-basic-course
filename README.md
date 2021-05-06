@@ -14,5 +14,7 @@
         - [x] Quiz
     - [x] Functions and Return Types
         - [x] Quiz
-    - [ ] Slices and For Loops
-        - [ ] Quiz
+    - [x] Slices and For Loops
+        - [x] Quiz
+    - [ ] OO vs Go approach
+    - [ ] Custom type decarations
