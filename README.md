@@ -21,5 +21,5 @@
     - [x] Receiver Functions
         - [x] Quiz
     - [x] Creating a New Deck
-    - [ ] Slice Range Syntax
+    - [x] Slice Range Syntax
     - [ ] Multiple Return Values
