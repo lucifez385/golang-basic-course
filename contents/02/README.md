@@ -47,3 +47,7 @@ Package == Project == Workspace
 ### Standard lib
 
 https://golang.org/pkg
+
+## func?
+
+![](02.10.png)

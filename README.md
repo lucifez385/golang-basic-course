@@ -5,5 +5,5 @@
     - [x] How to we run code?
     - [x] `package main`?
     - [x] `import "fmt"`?
-    - [ ] `func`?
+    - [x] `func`?
     - [ ] How is the main.go file organinzed?
