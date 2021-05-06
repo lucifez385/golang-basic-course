@@ -23,4 +23,6 @@
     - [x] Creating a New Deck
     - [x] Slice Range Syntax
     - [x] Multiple Return Values
-    - [ ] Byte slices
+    - [x] Byte slices
+    - [x] Saving Data to the Hard Drive 
+    - [ ] Reading Data from the Hard Drive
