@@ -7,7 +7,7 @@
     - [x] `import "fmt"`?
     - [x] `func`?
     - [x] How is the main.go file organinzed?
-- [ ] Card project
+- [x] Card project
     - [x] Project overview
     - [x] New project folder
     - [x] Variable declarations
@@ -27,4 +27,5 @@
     - [x] Saving Data to the Hard Drive 
     - [x] Reading Data from the Hard Drive
     - [x] Shuffle the cards
-    - [ ] Testing
+    - [x] Testing
+- [ ] Even & odd project
