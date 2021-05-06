@@ -28,4 +28,4 @@
     - [x] Reading Data from the Hard Drive
     - [x] Shuffle the cards
     - [x] Testing
-- [ ] Even & odd project
+- [x] Even & odd project
