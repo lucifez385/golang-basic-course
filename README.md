@@ -22,4 +22,5 @@
         - [x] Quiz
     - [x] Creating a New Deck
     - [x] Slice Range Syntax
-    - [ ] Multiple Return Values
+    - [x] Multiple Return Values
+    - [ ] Byte slices
