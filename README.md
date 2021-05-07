@@ -42,9 +42,19 @@
 
 ## Interface
 - [x] Overview of Interface
-- [ ] Deep drive into HTTP Package
+- [X] Deep drive into HTTP Package
 
+# TODO
 
+## Channels and Go Routines
+
+## API / MVC
+
+## API Testing
+
+## 
+
+---
 
 ## Thanks
 
