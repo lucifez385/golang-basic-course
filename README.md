@@ -35,7 +35,10 @@
 
 ## Organization Data with Struct
 - [x] Overview of Struct
-- [ ] Pass by value
+- [X] Pass by value
+
+## Map
+- [ ] Overview of Map
 
 
 

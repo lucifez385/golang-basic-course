@@ -39,26 +39,6 @@ taey.print()
 
 ![](02.07.png)
 
-## Pointer with Slice
-
-```go
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	mySlice := []string{"Hi", "there", "how", "are", "you"}
-	updateMySlice(mySlice)
-	fmt.Println(mySlice)
-}
-
-func updateMySlice(slice []string) {
-	slice[0] = "Hey"
-}
-```
-
 ## Quiz
 
 1. Whenever you pass an integer, float, string, or struct into a function, what does Go do with that argument?
@@ -231,3 +211,191 @@ C. An empty string
 ```
 
 <!-- A -->
+
+## Pointer with Slice
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	mySlice := []string{"Hi", "there", "how", "are", "you"}
+	updateMySlice(mySlice)
+	fmt.Println(mySlice)
+}
+
+func updateMySlice(slice []string) {
+	slice[0] = "Hey"
+}
+```
+
+## Pointer and Slice
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	myArray := [6]int{2, 3, 5, 7, 11, 13}
+	mySlice := []string{"Hi", "there", "how", "are", "you"}
+	updateMySlice(mySlice, myArray)
+	fmt.Println(mySlice)
+	fmt.Println(myArray)
+}
+
+func updateMySlice(slice []string, array [6]int) {
+	slice[0] = "Hey"
+	array[0] = 1
+}
+```
+
+![](02.08.png)
+
+![](02.09.png)
+
+![](02.10.png)
+
+![](02.11.png)
+
+## Pointer with Array
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	myArray := [6]int{2, 3, 5, 7, 11, 13}
+	mySlice := []string{"Hi", "there", "how", "are", "you"}
+	updateMySlice(mySlice, &myArray)
+	fmt.Println(mySlice)
+	fmt.Println(myArray)
+}
+
+func updateMySlice(slice []string, array *[6]int) {
+	slice[0] = "Hey"
+	array[0] = 1
+}
+```
+
+**Not recommended!** : https://www.geeksforgeeks.org/golang-pointer-to-an-array-as-function-argument/
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	myArray := [6]int{2, 3, 5, 7, 11, 13}
+	mySlice := []string{"Hi", "there", "how", "are", "you"}
+	updateMySlice(mySlice, myArray[:])
+	fmt.Println(mySlice)
+	fmt.Println(myArray)
+}
+
+func updateMySlice(slice []string, array []int) {
+	slice[0] = "Hey"
+	array[0] = 1
+}
+```
+
+## Value vs Reference types
+
+![](02.12.png)
+
+## Quiz
+
+1. When we create a slice, Go will automatically create which two data structures?
+
+```
+A. An array and a string
+B. An array and a list of pointers
+C. An array and a structure that records the length of the slice, the capacity of the slice, and a reference to the underlying array
+```
+
+<!-- C -->
+
+2. In the following code snippet, when we pass `mySlice` to the `updateSlice` function, is the `mySlice` value being copied before being passed into the function?
+
+```go
+package main
+ 
+import "fmt"
+ 
+func main() {
+ mySlice := []string{"Hi", "There", "how", "are", "you?"}
+ 
+ updateSlice(mySlice)
+ 
+ fmt.Println(mySlice)
+}
+ 
+func updateSlice(s []string) {
+ s[0] = "Bye"
+}
+```
+
+```
+A. Yes
+B. No
+```
+
+<!-- A -->
+
+3. With 'value types' in Go, do we have to worry about pointers if we want to pass a value to a function and modify the original value inside the function?
+
+```
+A. Yes
+B. No
+```
+
+<!-- A -->
+
+4. Is a slice a 'value type' or a 'reference type'
+
+```
+A. Reference type, because a slice contains a reference to the actual underlying list of records
+B. Value type
+```
+
+<!-- A -->
+
+5. With 'reference types' in Go, do we have to worry about pointers if we want to pass a value to a function and modify the original value inside the function?
+
+```
+A. Yes
+B. No
+```
+
+<!-- B -->
+
+6. Do you think the memory address printed by both `Println` calls will be the same?  Why or why not?
+
+```go
+package main
+ 
+import "fmt"
+ 
+func main() {
+ name := "bill"
+ 
+ namePointer := &name
+ 
+ fmt.Println(&namePointer)
+ printPointer(namePointer)
+}
+ 
+func printPointer(namePointer *string) {
+ fmt.Println(&namePointer)
+}
+```
