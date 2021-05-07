@@ -34,7 +34,8 @@
 - [x] Even & odd project
 
 ## Organization Data with Struct
-
+- [x] Overview of Struct
+- [ ] Pass by value
 
 
 
