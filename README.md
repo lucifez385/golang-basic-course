@@ -38,7 +38,10 @@
 - [X] Pass by value
 
 ## Map
-- [ ] Overview of Map
+- [x] Overview of Map
+
+## Interface
+- [ ] Overview of Interface
 
 
 
