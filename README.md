@@ -1,4 +1,7 @@
 # Checklist
+
+## Basic
+
 - [x] Install & Setup
 - [x] Hello world in Go!
 - [x] Five things must know
@@ -29,3 +32,12 @@
     - [x] Shuffle the cards
     - [x] Testing
 - [x] Even & odd project
+
+## Organization Data with Struct
+
+
+
+
+## Thanks
+
+https://www.udemy.com/course/go-the-complete-developers-guide
