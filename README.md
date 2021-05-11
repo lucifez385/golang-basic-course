@@ -44,9 +44,10 @@
 - [x] Overview of Interface
 - [X] Deep drive into HTTP Package
 
-# TODO
-
 ## Channels and Go Routines
+- [ ] Website uptime checker
+
+# TODO
 
 ## API / MVC
 
