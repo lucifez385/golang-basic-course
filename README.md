@@ -44,8 +44,13 @@
 - [x] Overview of Interface
 - [X] Deep drive into HTTP Package
 
-## Channels and Go Routines
+## Concurrency
 - [x] Website uptime checker
+    - [x] Channels and Go Routines
+- [x] waitGroup implementation
+
+## waitGroup
+- 
 
 # TODO
 
