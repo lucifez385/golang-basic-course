@@ -48,9 +48,9 @@
 - [x] Website uptime checker
     - [x] Channels and Go Routines
 - [x] waitGroup implementation
+- [x] Data Race
+- [ ] Deep in to channel
 
-## waitGroup
-- 
 
 # TODO
 
