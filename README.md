@@ -49,7 +49,9 @@
     - [x] Channels and Go Routines
 - [x] waitGroup implementation
 - [x] Data Race
-- [ ] Deep in to channel
+- [x] Deep in to channel
+    - [x] Buffered channel
+    - [x] Unbuffered channel
 
 
 # TODO
