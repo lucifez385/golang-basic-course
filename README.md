@@ -53,6 +53,10 @@
     - [x] Buffered channel
     - [x] Unbuffered channel
 
+## Create own module
+- [ ] Import and using module
+- [ ] Create your own module
+- [ ] Publish module on Github
 
 # TODO
 
