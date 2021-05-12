@@ -45,7 +45,7 @@
 - [X] Deep drive into HTTP Package
 
 ## Channels and Go Routines
-- [ ] Website uptime checker
+- [x] Website uptime checker
 
 # TODO
 
