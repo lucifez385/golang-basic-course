@@ -58,8 +58,8 @@
 - [x] Exporting Names. Private vs. Private Access
 - [x] Overview of Go Module
 - [x] Importing and using Go Module
-- [ ] Create your own module
-- [ ] Publish module on Github
+- [x] Create your own module
+- [x] Publish module on Github
 
 # TODO
 
