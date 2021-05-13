@@ -11,6 +11,8 @@
 
 ![](08.04.png)
 
+https://tour.golang.org/moretypes/7
+
 ## Quiz
 
 ```go
