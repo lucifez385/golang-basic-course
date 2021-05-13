@@ -17,3 +17,8 @@ go env GOPATH
 
 https://blog.golang.org/package-names
 
+## Exporting Names. Private vs. Private Access
+
+Priveate : Lowercase in first letter of function name
+
+Public : Uppercase in first letter of function name

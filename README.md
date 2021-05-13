@@ -55,7 +55,7 @@
 
 ## Go package and Modules
 - [x] Overview of Go Package
-- [ ] Exporting Names. Private vs. Private Access
+- [x] Exporting Names. Private vs. Private Access
 - [ ] Create your own module
 - [ ] Publish module on Github
 
