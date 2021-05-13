@@ -53,8 +53,9 @@
     - [x] Buffered channel
     - [x] Unbuffered channel
 
-## Create own module
-- [ ] Import and using module
+## Go package and Modules
+- [x] Overview of Go Package
+- [ ] Exporting Names. Private vs. Private Access
 - [ ] Create your own module
 - [ ] Publish module on Github
 
