@@ -399,3 +399,25 @@ func printPointer(namePointer *string) {
  fmt.Println(&namePointer)
 }
 ```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	name := "bill"
+
+	namePointer := &name
+
+	fmt.Printf("name        address: %v, name        value: %v\n", &name, name)
+	fmt.Printf("namePointer address: %v, namePointer value: %v\n", &namePointer, namePointer)
+
+	printPointer(namePointer)
+}
+
+func printPointer(pointer *string) {
+	fmt.Printf("pointer     address: %v, pointer     value: %v\n", &pointer, pointer)
+}
+```
